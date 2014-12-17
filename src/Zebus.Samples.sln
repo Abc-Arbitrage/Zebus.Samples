@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Publish event", "1.Publish event", "{1D6BD957-D652-49A6-920C-7344070AD87B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Common", "Zebus.Sample.Common\Zebus.Sample.Common.csproj", "{172D8150-0735-47DA-B6BF-B0AC92CDA339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Sender", "1.Publish event\Zebus.Sample.Publish.Sender\Zebus.Sample.Publish.Sender.csproj", "{29C75B52-2737-4E20-B3F7-6431F9C4F07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Messages", "1.Publish event\Zebus.Sample.Publish.Messages\Zebus.Sample.Publish.Messages.csproj", "{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Listener", "1.Publish event\Zebus.Sample.Publish.Listener\Zebus.Sample.Publish.Listener.csproj", "{FCC3DA25-E718-481F-BEE9-33A96730AA56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172D8150-0735-47DA-B6BF-B0AC92CDA339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172D8150-0735-47DA-B6BF-B0AC92CDA339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172D8150-0735-47DA-B6BF-B0AC92CDA339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172D8150-0735-47DA-B6BF-B0AC92CDA339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29C75B52-2737-4E20-B3F7-6431F9C4F07C} = {1D6BD957-D652-49A6-920C-7344070AD87B}
+		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3} = {1D6BD957-D652-49A6-920C-7344070AD87B}
+		{FCC3DA25-E718-481F-BEE9-33A96730AA56} = {1D6BD957-D652-49A6-920C-7344070AD87B}
+	EndGlobalSection
+EndGlobal
