@@ -7,6 +7,8 @@
 ## Sample details
 ### 1. Publishing an event
 This sample shows you how to publish an event from a peer, and handle it in another.
-The **Publish.Sender** console application will simply publish an event (`SomethingHappened`) every 500ms. The **Publish.Listener** console application will listen to this event type and log something every time it receives it.
+The **Publish.Sender** console application will simply publish an event (`SomethingHappened`) every 500ms. 
+
+The **Publish.Listener** console application will listen to this event type and log something every time it receives it.
 
 ![](https://github.com/Abc-Arbitrage/Zebus.Samples/raw/master/img/1.1.png)
