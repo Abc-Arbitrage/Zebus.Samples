@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Publish event", "1.Publish event", "{1D6BD957-D652-49A6-920C-7344070AD87B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Publishing an event", "1.Publishing an event", "{1D6BD957-D652-49A6-920C-7344070AD87B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Common", "Zebus.Sample.Common\Zebus.Sample.Common.csproj", "{172D8150-0735-47DA-B6BF-B0AC92CDA339}"
 EndProject
