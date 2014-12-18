@@ -18,7 +18,7 @@ namespace Zebus.Samples.Common
 
         public void Start()
         {
-            SetupLogging();
+            SetupLoggingWithoutConfigFile();
             CheckIfADirectoryIsStarted();
 
             var cancellationTokenSource = new CancellationTokenSource();
@@ -68,7 +68,7 @@ namespace Zebus.Samples.Common
 
         protected virtual void Teardown() { }
 
-        private static void SetupLogging()
+        private static void SetupLoggingWithoutConfigFile()
         {
             var consoleAppender = new ConsoleAppender
             {
