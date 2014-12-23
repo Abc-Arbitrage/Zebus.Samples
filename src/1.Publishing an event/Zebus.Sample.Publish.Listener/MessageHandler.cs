@@ -1,6 +1,6 @@
 ﻿using Abc.Zebus;
 using log4net;
-using Zebus.Samples.Publish.Messages;
+using Zebus.Samples.Common.Messages;
 
 namespace Zebus.Samples.Publish.Listener
 {

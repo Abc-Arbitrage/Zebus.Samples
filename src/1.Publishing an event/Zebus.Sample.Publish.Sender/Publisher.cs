@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using Abc.Zebus.Core;
 using Zebus.Samples.Common;
-using Zebus.Samples.Publish.Messages;
+using Zebus.Samples.Common.Messages;
 
 namespace Zebus.Samples.Publish.Sender
 {

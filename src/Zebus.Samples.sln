@@ -1,17 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Publishing an event", "1.Publishing an event", "{1D6BD957-D652-49A6-920C-7344070AD87B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Common", "Zebus.Sample.Common\Zebus.Sample.Common.csproj", "{172D8150-0735-47DA-B6BF-B0AC92CDA339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Sender", "1.Publish event\Zebus.Sample.Publish.Sender\Zebus.Sample.Publish.Sender.csproj", "{29C75B52-2737-4E20-B3F7-6431F9C4F07C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Sender", "1.Publishing an event\Zebus.Sample.Publish.Sender\Zebus.Sample.Publish.Sender.csproj", "{29C75B52-2737-4E20-B3F7-6431F9C4F07C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Messages", "1.Publish event\Zebus.Sample.Publish.Messages\Zebus.Sample.Publish.Messages.csproj", "{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Listener", "1.Publishing an event\Zebus.Sample.Publish.Listener\Zebus.Sample.Publish.Listener.csproj", "{FCC3DA25-E718-481F-BEE9-33A96730AA56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Publish.Listener", "1.Publish event\Zebus.Sample.Publish.Listener\Zebus.Sample.Publish.Listener.csproj", "{FCC3DA25-E718-481F-BEE9-33A96730AA56}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Sending a command", "2.Sending a command", "{42A9EEB4-5C42-468A-92BD-1D3E6402BD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Sending.Sender", "2.Sending a command\Zebus.Sample.Sending.Sender\Zebus.Sample.Sending.Sender.csproj", "{46245264-100B-4B6B-8E42-58039476E70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zebus.Sample.Sending.Listener", "2.Sending a command\Zebus.Sample.Sending.Listener\Zebus.Sample.Sending.Listener.csproj", "{708615A9-C644-457D-85CE-CAA4F609FF7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,21 +31,26 @@ Global
 		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C75B52-2737-4E20-B3F7-6431F9C4F07C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC3DA25-E718-481F-BEE9-33A96730AA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46245264-100B-4B6B-8E42-58039476E70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46245264-100B-4B6B-8E42-58039476E70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46245264-100B-4B6B-8E42-58039476E70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46245264-100B-4B6B-8E42-58039476E70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708615A9-C644-457D-85CE-CAA4F609FF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708615A9-C644-457D-85CE-CAA4F609FF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708615A9-C644-457D-85CE-CAA4F609FF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708615A9-C644-457D-85CE-CAA4F609FF7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29C75B52-2737-4E20-B3F7-6431F9C4F07C} = {1D6BD957-D652-49A6-920C-7344070AD87B}
-		{BDA8B2AE-2C28-47ED-A051-4BC15CB320F3} = {1D6BD957-D652-49A6-920C-7344070AD87B}
 		{FCC3DA25-E718-481F-BEE9-33A96730AA56} = {1D6BD957-D652-49A6-920C-7344070AD87B}
+		{46245264-100B-4B6B-8E42-58039476E70F} = {42A9EEB4-5C42-468A-92BD-1D3E6402BD04}
+		{708615A9-C644-457D-85CE-CAA4F609FF7E} = {42A9EEB4-5C42-468A-92BD-1D3E6402BD04}
 	EndGlobalSection
 EndGlobal
