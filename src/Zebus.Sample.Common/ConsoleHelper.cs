@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Zebus.Samples.Common
+namespace Zebus.Sample.Common
 {
-    public class ConsoleHelper
+    public static class ConsoleHelper
     {
         [DllImport("Kernel32")]
-        public static extern bool SetConsoleCtrlHandler(HandlerRoutine Handler, bool Add);
+        static extern bool SetConsoleCtrlHandler(HandlerRoutine handler, bool add);
 
         // A delegate type to be used as the handler routine 
         // for SetConsoleCtrlHandler.
-        public delegate bool HandlerRoutine(CtrlTypes CtrlType);
+        delegate bool HandlerRoutine(CtrlTypes ctrlType);
 
         // An enumerated type for the control messages
         // sent to the handler routine.
-        public enum CtrlTypes
+        enum CtrlTypes
         {
             CTRL_C_EVENT = 0,
             CTRL_BREAK_EVENT,
@@ -23,7 +23,7 @@ namespace Zebus.Samples.Common
             CTRL_SHUTDOWN_EVENT
         }
         
-        public class CallBackContext
+        private class CallBackContext
         {
             private readonly Action _handler;
 
@@ -32,7 +32,7 @@ namespace Zebus.Samples.Common
                 _handler = handler;
             }
 
-            public bool HandlerRoutine(CtrlTypes CtrlType)
+            public bool HandlerRoutine(CtrlTypes ctrlType)
             {
                 _handler();
                 return true;

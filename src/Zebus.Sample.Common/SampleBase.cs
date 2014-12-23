@@ -9,7 +9,7 @@ using log4net.Config;
 using log4net.Core;
 using log4net.Layout;
 
-namespace Zebus.Samples.Common
+namespace Zebus.Sample.Common
 {
     public abstract class SampleBase
     {

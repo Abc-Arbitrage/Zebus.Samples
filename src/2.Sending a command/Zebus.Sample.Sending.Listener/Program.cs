@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            var receiver = new Receiver();
+            receiver.Start();
         }
     }
 }

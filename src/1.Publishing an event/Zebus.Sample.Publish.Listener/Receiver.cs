@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 using Abc.Zebus.Core;
-using Zebus.Samples.Common;
+using Zebus.Sample.Common;
 
 namespace Zebus.Samples.Publish.Listener
 {

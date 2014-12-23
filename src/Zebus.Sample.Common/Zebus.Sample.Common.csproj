@@ -7,8 +7,8 @@
     <ProjectGuid>{172D8150-0735-47DA-B6BF-B0AC92CDA339}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zebus.Samples.Common</RootNamespace>
-    <AssemblyName>Zebus.Samples.Common</AssemblyName>
+    <RootNamespace>Zebus.Sample.Common</RootNamespace>
+    <AssemblyName>Zebus.Sample.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -60,7 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleHelper.cs" />
-    <Compile Include="Messages\SomethingHappened.cs" />
+    <Compile Include="Messages\Commands\CountDoneThingsCommand.cs" />
+    <Compile Include="Messages\Events\NewThingsHaveBeenDone.cs" />
+    <Compile Include="Messages\Events\SomethingHappened.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleBase.cs" />
   </ItemGroup>

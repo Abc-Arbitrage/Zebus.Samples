@@ -1,7 +1,7 @@
 ﻿using Abc.Zebus;
 using ProtoBuf;
 
-namespace Zebus.Samples.Common.Messages
+namespace Zebus.Sample.Common.Messages.Events
 {
     [ProtoContract]
     public class SomethingHappened : IEvent

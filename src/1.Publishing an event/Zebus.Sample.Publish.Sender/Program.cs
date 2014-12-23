@@ -1,4 +1,4 @@
-﻿using Zebus.Samples.Common;
+﻿using Zebus.Sample.Common;
 
 namespace Zebus.Samples.Publish.Sender
 {

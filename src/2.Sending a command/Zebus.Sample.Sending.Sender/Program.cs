@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-
+            var publisher = new Publisher();
+            publisher.Start();
         }
     }
 }
